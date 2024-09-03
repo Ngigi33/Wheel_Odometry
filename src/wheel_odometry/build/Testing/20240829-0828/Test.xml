@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240829-0828-Experimental"
+	Name="slambot-desktop"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.2.0"
+	OSName="Linux"
+	Hostname="slambot-desktop"
+	OSRelease="6.8.0-1010-raspi"
+	OSVersion="#11-Ubuntu SMP PREEMPT_DYNAMIC Thu Aug  8 23:22:41 UTC 2024"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="4"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="7933"
+	LogicalProcessorsPerPhysical="4"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Aug 29 11:28 EAT</StartDateTime>
+		<StartTestTime>1724920108</StartTestTime>
+		<TestList/>
+		<EndDateTime>Aug 29 11:28 EAT</EndDateTime>
+		<EndTestTime>1724920108</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
