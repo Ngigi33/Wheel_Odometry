@@ -16,10 +16,10 @@ def generate_launch_description():
         package="distance_calculator",
         executable="Distance_Calculator"
     )
-    odometry_estimator_node=Node(
-        package="odometry_estimator",
-        executable="odometry_estimator"
-    )
+    # odometry_estimator_node=Node(
+    #     package="odometry_estimator",
+    #     executable="odometry_estimator"
+    # )
     wheel_odometry_node=Node(
         package="wheel_odometry",
         executable="wheel_odometry"
@@ -32,7 +32,7 @@ def generate_launch_description():
     ld.add_action(Serial_Node)
     ld.add_action(Get_RPM)
     ld.add_action(Distance_Calculator)
-    ld.add_action(odometry_estimator_node)
+    # ld.add_action(odometry_estimator_node)
     ld.add_action(wheel_odometry_node)
     return ld
      
