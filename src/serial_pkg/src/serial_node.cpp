@@ -79,7 +79,7 @@ private:
     }
     else if ((data->angular.z) < 0.0) // Moving to Right
     {
-      int speed = 115215;
+      int speed = 130115;
       // std::string vel = "12012001";
       std::string vel = std::to_string(speed);
       std::string data_to_send = vel;
@@ -88,7 +88,7 @@ private:
     }
     else if ((data->angular.z) > 0.0) // Moving to Left
     {
-      int speed = 215115;
+      int speed = 115130;
       // std::string vel = "12012010";
       std::string vel = std::to_string(speed);
       std::string data_to_send = vel;
