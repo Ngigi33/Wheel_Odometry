@@ -232,7 +232,7 @@ private:
         quatOdom.pose.pose.position.z = 0;
         quatOdom.pose.pose.orientation.x = q.x();
         quatOdom.pose.pose.orientation.y = q.y();
-        quatOdom.pose.pose.orientation.z = q.z();
+        quatOdom.pose.pose.orientation.z = wheel_data.pose.orientation.z;
         quatOdom.pose.pose.orientation.w = q.w();
         quatOdom.twist.twist.linear.x = distance_Avg / (quatOdom.header.stamp.sec - quatOdom_old.header.stamp.sec);
         quatOdom.twist.twist.linear.y = 0;
